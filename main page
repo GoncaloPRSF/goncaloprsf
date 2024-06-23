@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .contact-form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .social-buttons {
+            margin-top: 20px;
+        }
+        .social-buttons a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gonçalo da Silva Ferreira</h1>
+        <p>Diretor Comercial e Vendas da LisbonPH</p>
+        <p>Na LisbonPH, procuro estruturar uma estratégia comercial que vá de encontro aos objetivos da Junior empresa, trabalhando com dedicação para estabelecer relações sólidas e duradouras com os nossos Parceiros e Stakeholders. Com a formação em Ciências Farmacêuticas pela Universidade de Lisboa, aplico meus conhecimentos para integrar perspectivas científicas ao planeamento estratégico, alavancando a promoção de serviços inovadores na área da saúde, tendo em vista a formação diária do Profissional de Saúde do FUTURO.
+
+Valorizo a comunicação eficaz e as apresentações impactantes, habilidades que são essenciais para a angariação de novos parceiros, bem como para a representação da LisbonPH.</p>
+
+        <div class="contact-form">
+            <form>
+                <label for="Gonçalo">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="social-buttons">
+            <a https://www.linkedin.com/in/gon%C3%A7alo-da-silva-ferreira/" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">GitHub</a>
+            <!-- Adicione mais redes sociais se necessário -->
+        </div>
+    </div>
+</body>
+</html>
